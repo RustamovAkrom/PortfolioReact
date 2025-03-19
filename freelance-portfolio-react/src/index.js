@@ -4,9 +4,6 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-// import $ from 'jquery';
-
-// window.$ = window.jQuery = $;
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

@@ -1,4 +1,3 @@
-import "./css/style.css";
 import "./lib/owlcarousel/assets/owl.carousel.min.css";
 import "./lib/lightbox/css/lightbox.min.css";
 import "./lib/animate/animate.min.css";
@@ -17,24 +16,21 @@ import Portfolio from "./pages/Portfolio";
 import Testimonial from "./pages/Testimonial";
 import Contact from "./pages/Contact";
 
-// import "./lib/jquery/jquery-3.4.1.min.js";
-// import "./lib/bootstrap/bootstrap.bundle.min.js";
+import "./lib/jquery/jquery-3.4.1.min.js";
+import "./lib/bootstrap/bootstrap.bundle.min.js";
+import "./lib/counterup/counterup.min.js"
 // import "./lib/wow/wow.min.js";
-// // import "./lib/typed/typed.min.js";
-// import "./lib/easing/easing.min.js";
+// import "./lib/typed/typed.min.js";
+import "./lib/easing/easing.min.js";
 
-// import "https://code.jquery.com/jquery-3.4.1.min.js";
-// import "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js";
-// import "https://cdn.jsdelivr.net/npm/wowjs@1.1.3/dist/wow.min.js";
-// import "https://cdn.jsdelivr.net/npm/typed.js@2.0.12/lib/typed.min.js";
-// import "https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js";
-// import "https://cdn.jsdelivr.net/npm/waypoints/lib/noframework.waypoints.min.js";
-// import "https://cdn.jsdelivr.net/npm/jquery.counterup@2.1.0/jquery.counterup.min.js";
-// import "https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js";
-// import "https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.0.0/isotope.pkgd.min.js";
-// import "https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js";
-// import "https://cdnjs.cloudflare.com/ajax/libs/jqBootstrapValidation/1.3.7/jqBootstrapValidation.min.js";
+// // import WOW from "wow.js";
 
+// // new WOW().init()
+
+// import "aos/dist/aos.css";
+// import AOS from "aos";
+
+// AOS.init();
 
 function App() {
   return (
@@ -104,9 +100,9 @@ function App() {
 
       </div>
 
-
+      
       <a href="/" className="back-to-top"><i className="fa fa-angle-double-up"></i></a>
-
+      
     </div>
   );
 }
